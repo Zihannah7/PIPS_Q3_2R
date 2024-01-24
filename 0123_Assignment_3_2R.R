@@ -1,12 +1,6 @@
 # Assignment 3.2R Solutions - 2024 Programming in Psychological Science (PIPS)
-#
-# Record of Revisions
-#
-# Date        Programmer          Descriptions of Change
-# ====       ================    ======================
-# 26-Jan-24  Zihan Xiao 14944731  start in 0123
 
-# Q3.2.1 -----------------------------------------------------------------------
+# first function -----------------------------------------------------------------
 remind_me = function() {
   cat("Shopping list for next week:", "\n",
     "1. Spitsool, tomato", "\n",
@@ -15,6 +9,7 @@ remind_me = function() {
 }
 remind_me()
 
+# second function -----------------------------------------------------------------
 cheat = function(num = 1) {
   # this function print solutions & plots for the first three questions.
   # this function needs "titanic" and "tidyverse" packages.
@@ -85,7 +80,7 @@ cheat = function(num = 1) {
 }
 cheat(1)
 
-# Q3.2.2 -----------------------------------------------------------------------
+# third function -----------------------------------------------------------------
 make_art = function(r_seed = 1234, type = "stripe") {
   # get inspired by stripes & squares in artsy package.
   # this function make random "art" (maybe?)
